@@ -1,12 +1,12 @@
 var myFullName; //variable Declaration
-myFullName = "Nisha Mokashe"; //variable Declaration
+myFullName = "Nisha Mokashe"; //variable intilization
 console.log(myFullName);
 
-holder = "Nisha Sudhakar Mokashe"; //variable update
-console.log(holder);
+myFullName = "Nisha Sudhakar Mokashe"; //variable update
+console.log(myFullName);
 
 var myLove; //variable Declaration
-myLove = "I love only JS"; //variable Declaration
+myLove = "I love only JS"; //variable initization
 console.log(myLove);
 
 var listed;
