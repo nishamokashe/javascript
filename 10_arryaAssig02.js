@@ -98,7 +98,7 @@ for (let index = 0; index < array.length; index++) {
  arrayNumbers.includes(23);
 
 
-console.log(`______________:12 Insert Number_______________`);
+console.log(`______________12: Insert Number_______________`);
 var arrayNumbers = [ 20,31,40,25,23,11,29,9,60,2,11 ];
 console.log(arrayNumbers);
 arrayNumbers.splice(3,0, 55,66)
