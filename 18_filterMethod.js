@@ -41,7 +41,7 @@ const array_employees = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika,
 
 console.log("Get the list of tcs employee names ");
 const arrayTcsEmployees = array_employees.filter( (employee) => {
-    return employee.emp_company == "TCS";
+  return employee.emp_company == "TCS";
 } );
 const arrayTcsEmployeeNames = arrayTcsEmployees.map( (employee) => {
     return employee.emp_name;
