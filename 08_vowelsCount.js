@@ -1,15 +1,24 @@
 
+// 11
+// 2
 
-var word = "JavaScript Language Of Internet";
-// a e i o u == A E I O U
-var count = 0;
-for (let index = 0; index < word.length; index++) {
-    var char = word.charAt(index); // 
-    if (char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u' || 
-        char == 'A' || char == 'E' || char == 'I' || char == 'O' || char == 'U') {
-        console.log(char);
-        count++;
+function primeNum(num) {
+    let isPrime = true;
+    for (let index = 2; index < num; index++) {
+      if (num % index == 0) {
+        isPrime = false;
+        console.log(`Not a prime number as it is divisible by ${index}`);
+        break;
+      }
     }
-    
-}
-console.log(`Count total vowels: ${count}`);
+    if (isPrime) {
+      console.log(`${num} is prime number`);
+    } else {
+      console.log(`Is not prime number ${num}`);
+    }
+  }
+  
+  primeNum(4);
+  primeNum(5);
+  primeNum(9);
+  primeNum(11);

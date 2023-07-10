@@ -3,7 +3,7 @@ var bankName = "SBI Bank";
 console.log("Bank Name:", bankName);
 console.log('Data Type :',typeof bankName);
 console.log("After Initialization");
-var bankName = "SBI Bank";
+var bankName = "HDFC Bank";
 console.log("Bank Name:", bankName); 
 var typeName = typeof bankName;
 console.log("Data Type:", typeName); 

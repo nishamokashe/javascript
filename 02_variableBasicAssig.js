@@ -24,7 +24,7 @@ console.log("Value of variable --> Marks:",marks);
 console.log('Type of variable Marks is:',typeof marks);
 console.log("----------------------------------------");
  var address;
- console.log("type of variable:",typeof address);
+ console.log("type of variable:", address);
  console.log('Type of variable Marks is:',typeof address);
 
 

@@ -15,8 +15,7 @@ function show(){
     console.log("show function");
 }
 
-
-display(); // FE never hoisted
+display() // FE never hoisted
 var display = function() {
     console.log("inside FE");
 }

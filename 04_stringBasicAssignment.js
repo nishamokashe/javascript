@@ -7,5 +7,5 @@ hobby2="dancing";
 hobby3="painting";
 console.log("my hobbies are:","1",hobby1 , "2",hobby2 ,  "3",hobby3);
 
-var result =hobby1.length+hobby1.length+hobby1.length;
+var result =hobby1.length+hobby2.length+hobby3.length;
 console.log("sum:",result);

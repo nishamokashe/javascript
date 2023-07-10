@@ -11,7 +11,7 @@ const person = {
 console.log(person);
 
 // delete person;
-function show(num, num){
-    console.log(num, num);
+function show(num1, num2){
+    console.log(num1, num2);
 }
 show(33, 44);

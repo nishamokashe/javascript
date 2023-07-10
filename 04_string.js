@@ -53,7 +53,7 @@ console.log("Search result : ", searchResult);
 var sliceResult = greet.slice(4, 6);
 console.log("Slice Result is: ", sliceResult);
 
-var subStringResult = greet.substring(4, 6);
+var subStringResult = greet.substring(4, 8);
 console.log("Substring result is: ", subStringResult);
 
 var greet = "Good Morning mate, How are you";

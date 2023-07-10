@@ -10,7 +10,6 @@ console.log(typeOfAge);
 
 console.log(typeof speckNumber);
 
-
 console.log("Age:",age);
 console.log("Weight:",weight);
 console.log("Height:",height);

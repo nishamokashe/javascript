@@ -14,5 +14,5 @@ console.log("Before Swap..", "num1:", num1, "num2:", num2 , "num3:", num3);
 var temp = num1;
 num1 = num2;
 num2 = num3;
-num3 = temp;s
+num3 = temp;
 console.log("After Swap..", "num1:", num1, "num2:", num2 , "num3:" , num3);

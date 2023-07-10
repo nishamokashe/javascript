@@ -37,7 +37,7 @@ function stringHandson(){
     console.log(` Is ${string} starts with character E: ${result}`);
     
     var result =string.endsWith("E");
-    console.log(` Is ${string} starts with character E: ${result}`);
+    console.log(` Is ${string} end with character E: ${result}`);
     
     
     var stringLength = string.length;

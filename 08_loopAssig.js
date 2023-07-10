@@ -38,4 +38,4 @@ function oddPositionedChars(givenString){
     console.log(`${str}`);
 }
 oddPositionedChars("Hard work always pays back");
-oddPositionedChars("Soon I will be Angular IT Champ")
+oddPositionedChars("Soon I will be Angular IT Champ");
